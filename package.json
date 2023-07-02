@@ -1,0 +1,24 @@
+{
+  "name": "thebeadshop",
+  "version": "1.0.0",
+  "description": "MERN shopping cart ",
+  "main": "server.js ",
+  "scripts": {
+    "devs ": "node backend/server",
+    "server": "nodemon backend/server",
+    "client": "npm start --prefix frontend",
+    "start": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Essi Akpevwe",
+  "license": "MIT",
+  "dependencies": {
+    "@material-ui/icons": "^4.11.2",
+    "express": "^4.17.2",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^5.3.3"
+  },
+  "devDependencies": {
+    "concurrently": "^7.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
